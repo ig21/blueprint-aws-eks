@@ -22,11 +22,11 @@ inputs:
 
   availability_zone_1:
     type: string
-    default: { concat: [ { get_input: aws_region_name}, 'd' ] }
+    default: { concat: [ { get_input: aws_region_name}, 'a' ] }
 
   availability_zone_2:
     type: string
-    default: { concat: [ { get_input: aws_region_name}, 'e' ] }
+    default: { concat: [ { get_input: aws_region_name}, 'b' ] }
 
   eks_cluster_name:
     type: string
